@@ -1,0 +1,131 @@
+
+/*
+vert foncé: 44A729
+vert clair: 91BD10
+jaune: C8D200
+gris: 55544B
+*/
+
+span.qwik-restaurant-background{
+    background: #FFFFFF;
+}
+
+body{
+    color:#55544B;
+	font-family: Calibri, "Helvetica Neue", Arial, Helvetica,sans-serif;
+    /*background-color:#E0E670;*/
+}
+
+#header{
+    /*background-color:#7B7B7B;*/
+    background-color: #FFFFFF;
+}
+
+#menu{
+    background-color:#44A729;
+    border-bottom: 5px solid #91BD10;
+    padding:10px 0px 10px 20px;
+}
+
+#menu ul {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+}
+#menu li {
+    /*color: #DAFA03;*/
+    color:#FFFFFF;
+    display: inline;
+    /*margin-right: 1px;*/
+    padding-top:3px;
+}
+#menu li a {
+    /*color: #DAFA03;*/
+    color:white;
+    margin: 4px 20px 4px 0px;
+    text-decoration: none ;
+    font-size: 16px;
+}
+#menu li a:hover {
+    text-decoration:underline;
+}
+
+#menu .selected{
+    text-decoration:underline;
+}
+
+a{
+    color: #44A729;
+}
+a:hover{
+    color: #55544B;
+    text-decoration: underline;
+}
+
+/*Contenu au milieu*/
+.main{
+    background-color: #FFFFFF;
+    padding:10px 10px;
+    margin-top:20px;
+    border: 5px solid #91BD10;
+    /*min-height: 500px;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.qwik-restaurant-level-description{
+    margin:0px;
+}
+p.qwik-restaurant-level{
+    color:#44A729;
+    line-height: 30px;
+    margin: 0;
+}
+p.qwik-restaurant-level1{
+    border-bottom:#44A729 1px solid;
+    font-size: 30px;
+}
+p.qwik-restaurant-level2{
+    font-size: 22px;
+}
+
+li.qwik-restaurant-plat {
+    border-bottom:1px dotted #55544B;
+    margin: -1.3em 0 0;
+}
+
+p.seat-petit-dej{
+    font-size:14px;
+    text-transform:none;
+    font-weight: bold;
+    line-height:inherit;
+    color:#55544B;
+}
+
+img.superbg {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.title{
+    font-size: 30px;
+    color:#44A729;
+    font-weight: normal;
+}
+
+.important{
+    color:#44A729;
+}
+
+.take-away-intro{
+    font-size:18px;
+}
+
+.download-folder-image{
+    text-align: center;
+}
+.download-folder-text{
+    text-align: right;
+}
